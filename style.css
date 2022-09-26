@@ -5,16 +5,21 @@
     font-family: 'Gudea', sans-serif;
 }
 nav{
+    position: fixed;
+    width: 100%;
+}
+.header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     padding: 1rem 3rem;
     align-items: center;
+    width: 100%;
 }
-nav img{
+.header img{
     width: 3rem;
 }
-nav ul{
+.header ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,10 +29,27 @@ li , a{
     list-style: none;
     text-decoration: none;
 }
-nav ul li a{
-    padding: 1rem 3rem;
+.header a{
+    padding: 0.6rem 2rem;
     font-size: 1.5rem;
     font-weight: bold;
+    transition: all 0.5s ease;
+}
+.header a:hover{
+    opacity: 0.7;
+    transform: scale(2);
+}
+.burger{
+    background-color: #6E07F3;
+    color: white;
+    display: none;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    transition: all 0.5s ease;
+}
+.burger:hover{
+    cursor: pointer;
+    opacity: 0.7;
 }
 .main{
     display: flex;
