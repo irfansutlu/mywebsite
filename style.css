@@ -36,10 +36,10 @@ a {
   font-weight: bold;
   transition: all 0.5s ease;
 }
-.header a:hover {
+.burger-list a:hover {
   opacity: 0.7;
-  transform: scale(2);
 }
+
 .burger {
   background-color: #6e07f3;
   color: white;
@@ -125,13 +125,20 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 5rem;
+  margin-top: 2rem;
+  justify-content: center;
 }
 .card {
-  display: inline;
-  background-color: antiquewhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #141c3a;
   border-radius: 10px;
-  width: 25rem;
+  width: 18rem;
   padding: 1rem;
+  gap: 1rem;
 }
 .card img {
   width: 15rem;
@@ -140,8 +147,17 @@ a {
 .card-content {
   float: right;
   font-size: 1rem;
-  color: #6e07f3;
-  
+  color: white;
+}
+.card-content button {
+  padding: 0.3rem 1rem;
+  background-color: rgb(91, 233, 185);
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  cursor: pointer;
 }
 @media (max-width: 900px) {
   .burger {
@@ -162,7 +178,7 @@ a {
   .burger-list ul.active {
     left: 0;
   }
-  .burger-list ul li{
+  .burger-list ul li {
     margin: 2.5rem 0;
   }
 }
