@@ -95,9 +95,10 @@ a {
   gap: 2rem;
   padding: 2rem 8%;
   font-size: 1.2rem;
+  color: #141c3a;
 }
 .skills i {
-  color: #6e07f3;
+  color: #141c3a;
 }
 .skills span {
   float: right;
