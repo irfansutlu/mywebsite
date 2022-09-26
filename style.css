@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gudea', sans-serif;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    align-items: center;
+}
+nav img{
+    width: 3rem;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li , a{
+    list-style: none;
+    text-decoration: none;
+}
+nav ul li a{
+    padding: 1rem 3rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 10% 0rem 10%;
+}
+.main h1{
+    font-size:4rem; 
+}
+.irfanpp{
+    width: 15rem;
+    border-radius: 50%;
+    background-color: #6E07F3;
+    margin: 3rem 0rem;
+}
+.pc-pic{
+    width: 50rem;
+}
+.comment{
+    padding: 5rem 13%;
+    background-color: #6E07F3;
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+.comment p{
+    margin-top: 2rem;
+    line-height: 2.5rem;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 8%;
+    font-size: 1.2rem;
+}
+.skills i{
+    color: #6E07F3;
+}
+.skills span{
+    float: right;
+    margin-left: 3rem;
+}
+.abilities p{
+    margin-top: 1rem;
+}
+.pp{
+    padding: 5rem;
+}
+.pp img{
+    width: 80%;
+    border-radius: 50%;
+}
+.details h4{
+    margin-top: 1rem;
+}
+.projects{
+    background-color: #6E07F3;
+    color: white;
+    font-size: 1.5rem;
+    padding: 5rem 8%;
+    text-align: center;
+    display: block;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    display: inline;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    width: 25rem;
+    padding: 1rem;
+}
+.card img{
+    width: 15rem;
+    float: left;
+}
+.card-content{
+    float: right;
+    font-size: 1rem;
+    color: #6E07F3;
+}
