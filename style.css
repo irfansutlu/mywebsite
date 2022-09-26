@@ -184,4 +184,7 @@ a {
   .burger-list ul li {
     margin: 2.5rem 0;
   }
+  .pc-pic {
+  width: 100%;
+}
 }
