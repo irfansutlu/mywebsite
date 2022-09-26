@@ -39,6 +39,9 @@ a {
 .burger-list a:hover {
   opacity: 0.7;
 }
+.burger-list a{
+  color: #141c3a;
+}
 
 .burger {
   background-color: #6e07f3;
