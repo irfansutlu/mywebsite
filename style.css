@@ -170,7 +170,20 @@ a {
 #contact {
   position: relative;
 }
-.icons {
+.certificates img {
+  max-width: 18rem;
+  transition: all ease 0.5s;
+}
+.certificates img:hover{
+  transform: scale(1.1);
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.certificates {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.icons,
+.certificates-div {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
